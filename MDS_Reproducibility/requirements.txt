@@ -1,0 +1,2 @@
+# Only needed to regenerate plots; not required for LaTeX compilation.
+matplotlib==3.10.8

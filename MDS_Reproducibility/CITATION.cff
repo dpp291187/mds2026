@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying article when its publication metadata are available; this file identifies the reproducibility artifact."
+type: software
+title: "Reproducibility artifact for Extremal integer lifts of MDS matrices and exact reduction placement"
+authors:
+  - family-names: "Duong"
+    given-names: "Phuc-Phan"
+    email: "duongphucphan@actvn.edu.vn"
+abstract: "Python code, finite certificates, data and plotting scripts for integer MDS lifts, exact normalization placement, observability and word-size checks."
+keywords:
+  - "MDS matrices"
+  - "integer lifts"
+  - "normalization placement"
+  - "reproducibility"
+  - "cryptographic implementation"

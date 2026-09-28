@@ -1,0 +1,876 @@
+{
+  "capacity": 4,
+  "cone_certificates": [
+    {
+      "w": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "costs": {
+        "binary": {
+          "initial": 3,
+          "outputs": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "total": 15
+        },
+        "tripling": {
+          "initial": 3,
+          "outputs": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "total": 14
+        }
+      }
+    },
+    {
+      "w": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "costs": {
+        "binary": {
+          "initial": 3,
+          "outputs": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "total": 15
+        },
+        "tripling": {
+          "initial": 3,
+          "outputs": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "total": 14
+        }
+      }
+    },
+    {
+      "w": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "costs": {
+        "binary": {
+          "initial": 3,
+          "outputs": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "total": 15
+        },
+        "tripling": {
+          "initial": 3,
+          "outputs": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "total": 14
+        }
+      }
+    },
+    {
+      "w": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "costs": {
+        "binary": {
+          "initial": 3,
+          "outputs": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "total": 15
+        },
+        "tripling": {
+          "initial": 3,
+          "outputs": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "total": 14
+        }
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "circuit": "Plonky3_M4",
+      "operations": 11,
+      "row_norms": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "normalizations": 5,
+      "schedule": {
+        "reductions": 5,
+        "loads": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          4,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1
+        ],
+        "details": [
+          {
+            "id": 4,
+            "name": "s01",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 5,
+            "name": "s23",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 6,
+            "name": "s",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 7,
+            "name": "a",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 8,
+            "name": "b",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 9,
+            "name": "d0",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 10,
+            "name": "d2",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 11,
+            "name": "y3",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 12,
+            "name": "y1",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 13,
+            "name": "y0",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 14,
+            "name": "y2",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 15,
+            "name": "out0",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 16,
+            "name": "out1",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 17,
+            "name": "out2",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 18,
+            "name": "out3",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          }
+        ],
+        "selected": [
+          6
+        ],
+        "peak_states": 196,
+        "max_frontier": 7,
+        "transitions": 1538
+      },
+      "nodes": [
+        {
+          "name": "s01",
+          "terms": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "s23",
+          "terms": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "s",
+          "terms": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "a",
+          "terms": [
+            [
+              6,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "b",
+          "terms": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d0",
+          "terms": [
+            [
+              0,
+              2
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d2",
+          "terms": [
+            [
+              2,
+              2
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y3",
+          "terms": [
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y1",
+          "terms": [
+            [
+              7,
+              1
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y0",
+          "terms": [
+            [
+              7,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y2",
+          "terms": [
+            [
+              8,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "out0",
+          "terms": [
+            [
+              13,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out1",
+          "terms": [
+            [
+              12,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out2",
+          "terms": [
+            [
+              14,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out3",
+          "terms": [
+            [
+              11,
+              1
+            ]
+          ],
+          "output": true
+        }
+      ],
+      "outputs": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "circuit": "A49_unit_tripling_14",
+      "operations": 14,
+      "row_norms": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "normalizations": 5,
+      "schedule": {
+        "reductions": 5,
+        "loads": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          3,
+          4,
+          2,
+          3,
+          4,
+          2,
+          3,
+          4,
+          2,
+          3,
+          4,
+          1,
+          1,
+          1,
+          1
+        ],
+        "details": [
+          {
+            "id": 4,
+            "name": "s12",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 5,
+            "name": "s123",
+            "raw_load": 3,
+            "post_load": 3,
+            "reduce": false
+          },
+          {
+            "id": 6,
+            "name": "w",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 7,
+            "name": "t0",
+            "raw_load": 3,
+            "post_load": 3,
+            "reduce": false
+          },
+          {
+            "id": 8,
+            "name": "y0",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 9,
+            "name": "d2",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 10,
+            "name": "t1",
+            "raw_load": 3,
+            "post_load": 3,
+            "reduce": false
+          },
+          {
+            "id": 11,
+            "name": "y1",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 12,
+            "name": "d3",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 13,
+            "name": "t2",
+            "raw_load": 3,
+            "post_load": 3,
+            "reduce": false
+          },
+          {
+            "id": 14,
+            "name": "y2",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 15,
+            "name": "d1",
+            "raw_load": 2,
+            "post_load": 2,
+            "reduce": false
+          },
+          {
+            "id": 16,
+            "name": "t3",
+            "raw_load": 3,
+            "post_load": 3,
+            "reduce": false
+          },
+          {
+            "id": 17,
+            "name": "y3",
+            "raw_load": 4,
+            "post_load": 4,
+            "reduce": false
+          },
+          {
+            "id": 18,
+            "name": "out0",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 19,
+            "name": "out1",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 20,
+            "name": "out2",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          },
+          {
+            "id": 21,
+            "name": "out3",
+            "raw_load": 4,
+            "post_load": 1,
+            "reduce": true
+          }
+        ],
+        "selected": [
+          6
+        ],
+        "peak_states": 222,
+        "max_frontier": 7,
+        "transitions": 1459
+      },
+      "nodes": [
+        {
+          "name": "s12",
+          "terms": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "s123",
+          "terms": [
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "w",
+          "terms": [
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "t0",
+          "terms": [
+            [
+              0,
+              3
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y0",
+          "terms": [
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d2",
+          "terms": [
+            [
+              2,
+              2
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "t1",
+          "terms": [
+            [
+              1,
+              1
+            ],
+            [
+              9,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y1",
+          "terms": [
+            [
+              10,
+              1
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d3",
+          "terms": [
+            [
+              3,
+              2
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "t2",
+          "terms": [
+            [
+              2,
+              1
+            ],
+            [
+              12,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y2",
+          "terms": [
+            [
+              13,
+              1
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d1",
+          "terms": [
+            [
+              1,
+              2
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "t3",
+          "terms": [
+            [
+              3,
+              1
+            ],
+            [
+              15,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y3",
+          "terms": [
+            [
+              16,
+              1
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "out0",
+          "terms": [
+            [
+              8,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out1",
+          "terms": [
+            [
+              11,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out2",
+          "terms": [
+            [
+              14,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out3",
+          "terms": [
+            [
+              17,
+              1
+            ]
+          ],
+          "output": true
+        }
+      ],
+      "outputs": [
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  ],
+  "exhaustive_subset_comparisons": 2,
+  "centered_semantic_inputs": 57122,
+  "common_normalization_lower_bound": 5,
+  "P3_arithmetic_upper_bound_at_five": 11,
+  "A49_binary_arithmetic_minimum_at_five": 15,
+  "A49_tripling_arithmetic_minimum_at_five": 14,
+  "A49_binary_budget_at_most_14_normalization_optimum": 6
+}

@@ -1,0 +1,1882 @@
+{
+  "version": "revision6",
+  "word_sizes": {
+    "BN254_scalar": {
+      "prime": 21888242871839275222246405745257275088548364400416034343698204186575808495617,
+      "centered_input_peak": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+      "signed_width_bits": 256,
+      "signed_positive_limit": 57896044618658097711785492504343953926634992332820282019728792003956564819967,
+      "capacity_H": 5,
+      "norm5_peak": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+      "norm6_peak": 65664728615517825666739217235771825265645093201248103031094612559727425486848,
+      "signed_one_shot_widths": {
+        "5": 256,
+        "7": 257,
+        "16": 258
+      },
+      "primality_scope": "Specified standard BN254 scalar prime; no new primality certificate claimed"
+    },
+    "small_fields": [
+      {
+        "name": "BabyBear",
+        "prime": 2013265921,
+        "word_sizes": [
+          {
+            "signed_width_bits": 32,
+            "capacity_H": 2,
+            "centered_input_peak": 1006632960,
+            "signed_positive_limit": 2147483647
+          },
+          {
+            "signed_width_bits": 33,
+            "capacity_H": 4,
+            "centered_input_peak": 1006632960,
+            "signed_positive_limit": 4294967295
+          },
+          {
+            "signed_width_bits": 34,
+            "capacity_H": 8,
+            "centered_input_peak": 1006632960,
+            "signed_positive_limit": 8589934591
+          }
+        ]
+      },
+      {
+        "name": "Mersenne31",
+        "prime": 2147483647,
+        "word_sizes": [
+          {
+            "signed_width_bits": 32,
+            "capacity_H": 2,
+            "centered_input_peak": 1073741823,
+            "signed_positive_limit": 2147483647
+          },
+          {
+            "signed_width_bits": 33,
+            "capacity_H": 4,
+            "centered_input_peak": 1073741823,
+            "signed_positive_limit": 4294967295
+          },
+          {
+            "signed_width_bits": 34,
+            "capacity_H": 8,
+            "centered_input_peak": 1073741823,
+            "signed_positive_limit": 8589934591
+          }
+        ]
+      },
+      {
+        "name": "KoalaBear",
+        "prime": 2130706433,
+        "word_sizes": [
+          {
+            "signed_width_bits": 32,
+            "capacity_H": 2,
+            "centered_input_peak": 1065353216,
+            "signed_positive_limit": 2147483647
+          },
+          {
+            "signed_width_bits": 33,
+            "capacity_H": 4,
+            "centered_input_peak": 1065353216,
+            "signed_positive_limit": 4294967295
+          },
+          {
+            "signed_width_bits": 34,
+            "capacity_H": 8,
+            "centered_input_peak": 1065353216,
+            "signed_positive_limit": 8589934591
+          }
+        ]
+      }
+    ],
+    "small_field_capacity_checks": 9,
+    "one_shot_width_scope": "Exact widths for one complete row-dot-product range; not a limb implementation cost"
+  },
+  "BN254_implementations": {
+    "prime": 21888242871839275222246405745257275088548364400416034343698204186575808495617,
+    "minor_checks": 414,
+    "matrices": [
+      {
+        "name": "A49",
+        "row_norms": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "invertible_minors": 69,
+        "distinct_minor_magnitudes": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          14,
+          49
+        ],
+        "MDS_over_specified_prime": true
+      },
+      {
+        "name": "A7",
+        "row_norms": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "invertible_minors": 69,
+        "distinct_minor_magnitudes": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          14
+        ],
+        "MDS_over_specified_prime": true
+      },
+      {
+        "name": "A17",
+        "row_norms": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "invertible_minors": 69,
+        "distinct_minor_magnitudes": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          17
+        ],
+        "MDS_over_specified_prime": true
+      },
+      {
+        "name": "B",
+        "row_norms": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "invertible_minors": 69,
+        "distinct_minor_magnitudes": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          14,
+          49
+        ],
+        "MDS_over_specified_prime": true
+      },
+      {
+        "name": "observable_A7",
+        "row_norms": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "invertible_minors": 69,
+        "distinct_minor_magnitudes": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          14
+        ],
+        "MDS_over_specified_prime": true
+      },
+      {
+        "name": "P3",
+        "row_norms": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "invertible_minors": 69,
+        "distinct_minor_magnitudes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          11,
+          17,
+          35
+        ],
+        "MDS_over_specified_prime": true
+      }
+    ],
+    "schedules": [
+      {
+        "circuit": "A7_eleven",
+        "matrix": [
+          [
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            -1,
+            2,
+            -1,
+            1
+          ],
+          [
+            -1,
+            1,
+            2,
+            -1
+          ],
+          [
+            1,
+            1,
+            -1,
+            2
+          ]
+        ],
+        "operations": 11,
+        "capacity_H": 5,
+        "normalizations": 4,
+        "selected_internal_nodes": [
+          12
+        ],
+        "exact_linear_map_verified": true,
+        "every_raw_and_retained_bound_fits_signed_256": true,
+        "node_bounds": [
+          {
+            "name": "w",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "t",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "a",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y1",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "q",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y2",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "b",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "c",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y3",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "d",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 4,
+            "retained_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y0",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "out0",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out1",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out2",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out3",
+            "output_sink": true,
+            "raw_load": 1,
+            "raw_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "raw_signed_width": 254,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": false
+          }
+        ]
+      },
+      {
+        "circuit": "A17_eleven",
+        "matrix": [
+          [
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            -1,
+            2,
+            -1,
+            1
+          ],
+          [
+            1,
+            -1,
+            2,
+            1
+          ],
+          [
+            1,
+            1,
+            -1,
+            2
+          ]
+        ],
+        "operations": 11,
+        "capacity_H": 5,
+        "normalizations": 4,
+        "selected_internal_nodes": [
+          10
+        ],
+        "exact_linear_map_verified": true,
+        "every_raw_and_retained_bound_fits_signed_256": true,
+        "node_bounds": [
+          {
+            "name": "w",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "u",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "v",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "a",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "b",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "y1",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y2",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "t",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "y0",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "d3",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "y3",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "out0",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out1",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out2",
+            "output_sink": true,
+            "raw_load": 1,
+            "raw_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "raw_signed_width": 254,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": false
+          },
+          {
+            "name": "out3",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          }
+        ]
+      },
+      {
+        "circuit": "Observable_A7_eleven",
+        "matrix": [
+          [
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            1,
+            2,
+            -1
+          ],
+          [
+            -1,
+            2,
+            -1,
+            1
+          ]
+        ],
+        "operations": 11,
+        "capacity_H": 5,
+        "normalizations": 4,
+        "selected_internal_nodes": [
+          12
+        ],
+        "exact_linear_map_verified": true,
+        "every_raw_and_retained_bound_fits_signed_256": true,
+        "node_bounds": [
+          {
+            "name": "w",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "t",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "a",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y1",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "q",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y2",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "b",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "c",
+            "output_sink": false,
+            "raw_load": 3,
+            "raw_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "raw_signed_width": 256,
+            "retained_load": 3,
+            "retained_absolute_bound": 32832364307758912833369608617885912632822546600624051515547306279863712743424,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y3",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "d",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 4,
+            "retained_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y0",
+            "output_sink": false,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 5,
+            "retained_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "out0",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out1",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out2",
+            "output_sink": true,
+            "raw_load": 5,
+            "raw_absolute_bound": 54720607179598188055616014363143187721370911001040085859245510466439521239040,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out3",
+            "output_sink": true,
+            "raw_load": 1,
+            "raw_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "raw_signed_width": 254,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": false
+          }
+        ]
+      },
+      {
+        "circuit": "Plonky3_M4",
+        "matrix": [
+          [
+            2,
+            3,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            1,
+            1,
+            2
+          ]
+        ],
+        "operations": 11,
+        "capacity_H": 5,
+        "normalizations": 5,
+        "selected_internal_nodes": [
+          6
+        ],
+        "exact_linear_map_verified": true,
+        "every_raw_and_retained_bound_fits_signed_256": true,
+        "node_bounds": [
+          {
+            "name": "s01",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "s23",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "s",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "a",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "b",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "d0",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "d2",
+            "output_sink": false,
+            "raw_load": 2,
+            "raw_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "raw_signed_width": 255,
+            "retained_load": 2,
+            "retained_absolute_bound": 21888242871839275222246405745257275088548364400416034343698204186575808495616,
+            "retained_signed_width": 255,
+            "normalize": false
+          },
+          {
+            "name": "y3",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 4,
+            "retained_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y1",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 4,
+            "retained_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y0",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 4,
+            "retained_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "y2",
+            "output_sink": false,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 4,
+            "retained_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "retained_signed_width": 256,
+            "normalize": false
+          },
+          {
+            "name": "out0",
+            "output_sink": true,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out1",
+            "output_sink": true,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out2",
+            "output_sink": true,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          },
+          {
+            "name": "out3",
+            "output_sink": true,
+            "raw_load": 4,
+            "raw_absolute_bound": 43776485743678550444492811490514550177096728800832068687396408373151616991232,
+            "raw_signed_width": 256,
+            "retained_load": 1,
+            "retained_absolute_bound": 10944121435919637611123202872628637544274182200208017171849102093287904247808,
+            "retained_signed_width": 254,
+            "normalize": true
+          }
+        ]
+      }
+    ],
+    "normalization_count_comparisons": 4,
+    "raw_node_bound_checks": 60,
+    "retained_node_bound_checks": 60,
+    "arithmetic_count_scope": "Four supplied eleven-operation witnesses; not global arithmetic minimality",
+    "capacity_scope": "Centered signed storage with no fused modular/scalar operation assumption"
+  },
+  "A49_focused_lemma": {
+    "candidate_forms": 156,
+    "first_form_histogram": [
+      32,
+      48,
+      72,
+      0,
+      4
+    ],
+    "successful_forms": 4,
+    "unique_formal_output_representations": 16,
+    "absolute_coefficient_pattern_counts": [
+      {
+        "pattern": [
+          3,
+          1
+        ],
+        "count": 4
+      },
+      {
+        "pattern": [
+          2,
+          1,
+          1
+        ],
+        "count": 12
+      }
+    ],
+    "first_gate_vector_counts": {
+      "four_atoms": 17,
+      "five_atoms": 26
+    },
+    "at_most_two_gate_vector_counts": {
+      "four_atoms": 81,
+      "five_atoms": 141
+    },
+    "explicit_two_gate_exclusions": 20,
+    "sign_compatible_DAGs_inspected": 184,
+    "output_output_disjointness_checks": 24,
+    "output_proper_first_form_disjointness_checks": 16,
+    "verified_pre_normalization_gates": 3,
+    "verified_each_output_cone_gates": 3,
+    "verified_total_disjoint_lower_bound": 15,
+    "records": [
+      {
+        "first_normalized_form": [
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "pre_normalization_gate_minimum": 3,
+        "pre_normalization_two_gate_exclusion": true,
+        "pre_normalization_sign_compatible_DAGs": 15,
+        "outputs": [
+          {
+            "output": 0,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              3,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              3,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 4,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 1,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              1,
+              -2,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              1,
+              -2,
+              0,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 2,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              0,
+              1,
+              -2
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              0,
+              1,
+              -2,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 3,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              -2,
+              0,
+              1
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              -2,
+              0,
+              1,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          }
+        ],
+        "output_pair_intersections": [
+          {
+            "output_pair": [
+              0,
+              1
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              2,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          }
+        ],
+        "output_proper_preform_intersections": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "total_disjoint_gate_lower_bound": 15
+      },
+      {
+        "first_normalized_form": [
+          1,
+          -1,
+          1,
+          1
+        ],
+        "pre_normalization_gate_minimum": 3,
+        "pre_normalization_two_gate_exclusion": true,
+        "pre_normalization_sign_compatible_DAGs": 15,
+        "outputs": [
+          {
+            "output": 0,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": 1,
+            "input_coefficients": [
+              1,
+              2,
+              0,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              1,
+              2,
+              0,
+              0,
+              1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 1,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              1,
+              0,
+              2
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              1,
+              0,
+              2,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 2,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              0,
+              3,
+              0,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              3,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 4,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 3,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": 1,
+            "input_coefficients": [
+              -2,
+              0,
+              0,
+              1
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              -2,
+              0,
+              0,
+              1,
+              1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          }
+        ],
+        "output_pair_intersections": [
+          {
+            "output_pair": [
+              0,
+              1
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              2,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          }
+        ],
+        "output_proper_preform_intersections": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "total_disjoint_gate_lower_bound": 15
+      },
+      {
+        "first_normalized_form": [
+          1,
+          1,
+          -1,
+          1
+        ],
+        "pre_normalization_gate_minimum": 3,
+        "pre_normalization_two_gate_exclusion": true,
+        "pre_normalization_sign_compatible_DAGs": 15,
+        "outputs": [
+          {
+            "output": 0,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": 1,
+            "input_coefficients": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              1,
+              0,
+              2,
+              0,
+              1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 1,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": 1,
+            "input_coefficients": [
+              -2,
+              1,
+              0,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              -2,
+              1,
+              0,
+              0,
+              1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 2,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              2,
+              1,
+              0,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 3,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              0,
+              0,
+              3
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              0,
+              0,
+              3,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              3,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 4,
+            "minimum_cone_gates": 3
+          }
+        ],
+        "output_pair_intersections": [
+          {
+            "output_pair": [
+              0,
+              1
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              2,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          }
+        ],
+        "output_proper_preform_intersections": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "total_disjoint_gate_lower_bound": 15
+      },
+      {
+        "first_normalized_form": [
+          1,
+          1,
+          1,
+          -1
+        ],
+        "pre_normalization_gate_minimum": 3,
+        "pre_normalization_two_gate_exclusion": true,
+        "pre_normalization_sign_compatible_DAGs": 15,
+        "outputs": [
+          {
+            "output": 0,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": 1,
+            "input_coefficients": [
+              1,
+              0,
+              0,
+              2
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              1,
+              0,
+              0,
+              2,
+              1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 1,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              3,
+              0,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              3,
+              0,
+              0,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              3,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 4,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 2,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": 1,
+            "input_coefficients": [
+              -2,
+              0,
+              1,
+              0
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              -2,
+              0,
+              1,
+              0,
+              1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          },
+          {
+            "output": 3,
+            "unique_representation_count": 1,
+            "reset_w_coefficient": -1,
+            "input_coefficients": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "other_output_coefficients": [
+              0,
+              0,
+              0
+            ],
+            "formal_vector": [
+              0,
+              0,
+              2,
+              1,
+              -1
+            ],
+            "absolute_nonzero_pattern": [
+              2,
+              1,
+              1
+            ],
+            "coefficient_norm": 4,
+            "generated_with_at_most_two_gates": false,
+            "sign_compatible_DAGs": 9,
+            "minimum_cone_gates": 3
+          }
+        ],
+        "output_pair_intersections": [
+          {
+            "output_pair": [
+              0,
+              1
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              0,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              2
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              1,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          },
+          {
+            "output_pair": [
+              2,
+              3
+            ],
+            "nontrivial_shared_forms": 0
+          }
+        ],
+        "output_proper_preform_intersections": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "total_disjoint_gate_lower_bound": 15
+      }
+    ],
+    "lemma_scope": "After the tight-load argument reduces every cone to its unique sign-compatible formal vector; doubling and repeated wire use remain permitted",
+    "logical_caveat": "Load equality alone is insufficient; the coefficient-pattern and no-sharing checks are essential",
+    "tight_load_counterexample": {
+      "expression": "2*(x+y)",
+      "operations": 2,
+      "sequence": [
+        "s=x+y",
+        "y=2*s"
+      ],
+      "output_coefficients": [
+        2,
+        2
+      ],
+      "coefficient_norm": 4,
+      "raw_loads": [
+        2,
+        4
+      ],
+      "reason": "The same intermediate wire is used twice at the doubling gate"
+    }
+  },
+  "preservation": {
+    "existing_data_files": 14,
+    "every_existing_data_hash_unchanged": true
+  }
+}

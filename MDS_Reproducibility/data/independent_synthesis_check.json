@@ -1,0 +1,9 @@
+{
+  "independent_sumset_instances": 444,
+  "first_forms": 156,
+  "matching_reachability": true,
+  "centered_semantic_inputs": 28561,
+  "witness_operations": 15,
+  "witness_reductions": 5,
+  "capacity": 4
+}

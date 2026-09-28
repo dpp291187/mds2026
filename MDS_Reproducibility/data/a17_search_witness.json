@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "w": [
+      0,
+      1,
+      -1,
+      0
+    ],
+    "output_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "beam": 80,
+    "operations": 11
+  },
+  "nodes": [
+    {
+      "name": "g0",
+      "terms": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g1",
+      "terms": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g2",
+      "terms": [
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g3",
+      "terms": [
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g4",
+      "terms": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g5",
+      "terms": [
+        [
+          8,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g6",
+      "terms": [
+        [
+          9,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g7",
+      "terms": [
+        [
+          4,
+          -1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g8",
+      "terms": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g9",
+      "terms": [
+        [
+          3,
+          2
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "g10",
+      "terms": [
+        [
+          13,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "output": false
+    },
+    {
+      "name": "out0",
+      "terms": [
+        [
+          12,
+          1
+        ]
+      ],
+      "output": true
+    },
+    {
+      "name": "out1",
+      "terms": [
+        [
+          7,
+          1
+        ]
+      ],
+      "output": true
+    },
+    {
+      "name": "out2",
+      "terms": [
+        [
+          9,
+          1
+        ]
+      ],
+      "output": true
+    },
+    {
+      "name": "out3",
+      "terms": [
+        [
+          14,
+          1
+        ]
+      ],
+      "output": true
+    }
+  ],
+  "outputs": [
+    15,
+    16,
+    17,
+    18
+  ],
+  "schedule": {
+    "reductions": 5,
+    "loads": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      4,
+      2,
+      1,
+      2,
+      2,
+      4,
+      2,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "details": [
+      {
+        "id": 4,
+        "name": "g0",
+        "raw_load": 2,
+        "post_load": 1,
+        "reduce": true
+      },
+      {
+        "id": 5,
+        "name": "g1",
+        "raw_load": 2,
+        "post_load": 2,
+        "reduce": false
+      },
+      {
+        "id": 6,
+        "name": "g2",
+        "raw_load": 2,
+        "post_load": 2,
+        "reduce": false
+      },
+      {
+        "id": 7,
+        "name": "g3",
+        "raw_load": 4,
+        "post_load": 4,
+        "reduce": false
+      },
+      {
+        "id": 8,
+        "name": "g4",
+        "raw_load": 2,
+        "post_load": 2,
+        "reduce": false
+      },
+      {
+        "id": 9,
+        "name": "g5",
+        "raw_load": 4,
+        "post_load": 1,
+        "reduce": true
+      },
+      {
+        "id": 10,
+        "name": "g6",
+        "raw_load": 2,
+        "post_load": 2,
+        "reduce": false
+      },
+      {
+        "id": 11,
+        "name": "g7",
+        "raw_load": 2,
+        "post_load": 2,
+        "reduce": false
+      },
+      {
+        "id": 12,
+        "name": "g8",
+        "raw_load": 4,
+        "post_load": 4,
+        "reduce": false
+      },
+      {
+        "id": 13,
+        "name": "g9",
+        "raw_load": 2,
+        "post_load": 2,
+        "reduce": false
+      },
+      {
+        "id": 14,
+        "name": "g10",
+        "raw_load": 4,
+        "post_load": 4,
+        "reduce": false
+      },
+      {
+        "id": 15,
+        "name": "out0",
+        "raw_load": 4,
+        "post_load": 1,
+        "reduce": true
+      },
+      {
+        "id": 16,
+        "name": "out1",
+        "raw_load": 4,
+        "post_load": 1,
+        "reduce": true
+      },
+      {
+        "id": 17,
+        "name": "out2",
+        "raw_load": 1,
+        "post_load": 1,
+        "reduce": false
+      },
+      {
+        "id": 18,
+        "name": "out3",
+        "raw_load": 4,
+        "post_load": 1,
+        "reduce": true
+      }
+    ],
+    "selected": [
+      4,
+      9
+    ],
+    "peak_states": 150,
+    "max_frontier": 7,
+    "transitions": 916
+  }
+}

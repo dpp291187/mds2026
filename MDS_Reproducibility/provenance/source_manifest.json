@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "file": "plonky3_external_v0.4.0.rs",
+      "source_url": "https://github.com/Plonky3/Plonky3/blob/v0.4.0/poseidon2/src/external.rs",
+      "version": "v0.4.0",
+      "sha256": "e1301767903b4815c868ce65b41fb9a31f8f57b283d66fdaa66b92ab2cc98d0f",
+      "license_files": [
+        "LICENSE-MIT-Plonky3",
+        "LICENSE-APACHE-Plonky3"
+      ]
+    },
+    {
+      "file": "plonky3_koala_bear_v0.4.0.rs",
+      "source_url": "https://github.com/Plonky3/Plonky3/blob/v0.4.0/koala-bear/src/koala_bear.rs",
+      "version": "v0.4.0",
+      "sha256": "6da90e83463f84feb211c95f3c0293c337536345a2aab35951979ea2f3cd66a7",
+      "license_files": [
+        "LICENSE-MIT-Plonky3",
+        "LICENSE-APACHE-Plonky3"
+      ]
+    }
+  ],
+  "license_scope": "Original upstream notices retained; no license grant for original artifact code or data is added",
+  "external_records": [
+    "poseidon2_composition_source.json"
+  ]
+}

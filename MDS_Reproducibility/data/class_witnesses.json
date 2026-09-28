@@ -1,0 +1,1529 @@
+{
+  "witnesses": [
+    {
+      "circuit": "A7_eleven",
+      "matrix": [
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          -1,
+          2,
+          -1,
+          1
+        ],
+        [
+          -1,
+          1,
+          2,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1,
+          2
+        ]
+      ],
+      "operations": 11,
+      "nodes": [
+        {
+          "name": "w",
+          "terms": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "t",
+          "terms": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "a",
+          "terms": [
+            [
+              5,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y1",
+          "terms": [
+            [
+              6,
+              1
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "q",
+          "terms": [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y2",
+          "terms": [
+            [
+              5,
+              1
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "b",
+          "terms": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "c",
+          "terms": [
+            [
+              10,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y3",
+          "terms": [
+            [
+              11,
+              1
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d",
+          "terms": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y0",
+          "terms": [
+            [
+              13,
+              1
+            ],
+            [
+              12,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "out0",
+          "terms": [
+            [
+              14,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out1",
+          "terms": [
+            [
+              7,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out2",
+          "terms": [
+            [
+              9,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out3",
+          "terms": [
+            [
+              12,
+              1
+            ]
+          ],
+          "output": true
+        }
+      ],
+      "outputs": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "schedules": {
+        "3": {
+          "reductions": 7,
+          "loads": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            3,
+            1,
+            3,
+            2,
+            1,
+            1,
+            2,
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "details": [
+            {
+              "id": 4,
+              "name": "w",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 5,
+              "name": "t",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 6,
+              "name": "a",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 7,
+              "name": "y1",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 8,
+              "name": "q",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 9,
+              "name": "y2",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 10,
+              "name": "b",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 11,
+              "name": "c",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 12,
+              "name": "y3",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 13,
+              "name": "d",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 14,
+              "name": "y0",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 15,
+              "name": "out0",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 16,
+              "name": "out1",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 17,
+              "name": "out2",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 18,
+              "name": "out3",
+              "raw_load": 1,
+              "post_load": 1,
+              "reduce": false
+            }
+          ],
+          "selected": [
+            6,
+            8,
+            11,
+            12
+          ],
+          "peak_states": 71,
+          "max_frontier": 7,
+          "transitions": 467
+        },
+        "4": {
+          "reductions": 5,
+          "loads": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            3,
+            4,
+            2,
+            4,
+            2,
+            3,
+            1,
+            3,
+            4,
+            1,
+            1,
+            1,
+            1
+          ],
+          "details": [
+            {
+              "id": 4,
+              "name": "w",
+              "raw_load": 2,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 5,
+              "name": "t",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 6,
+              "name": "a",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 7,
+              "name": "y1",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 8,
+              "name": "q",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 9,
+              "name": "y2",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 10,
+              "name": "b",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 11,
+              "name": "c",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 12,
+              "name": "y3",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 13,
+              "name": "d",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 14,
+              "name": "y0",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 15,
+              "name": "out0",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 16,
+              "name": "out1",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 17,
+              "name": "out2",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 18,
+              "name": "out3",
+              "raw_load": 1,
+              "post_load": 1,
+              "reduce": false
+            }
+          ],
+          "selected": [
+            4,
+            12
+          ],
+          "peak_states": 166,
+          "max_frontier": 7,
+          "transitions": 1019
+        },
+        "5": {
+          "reductions": 4,
+          "loads": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            5,
+            3,
+            5,
+            2,
+            3,
+            1,
+            4,
+            5,
+            1,
+            1,
+            1,
+            1
+          ],
+          "details": [
+            {
+              "id": 4,
+              "name": "w",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 5,
+              "name": "t",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 6,
+              "name": "a",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 7,
+              "name": "y1",
+              "raw_load": 5,
+              "post_load": 5,
+              "reduce": false
+            },
+            {
+              "id": 8,
+              "name": "q",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 9,
+              "name": "y2",
+              "raw_load": 5,
+              "post_load": 5,
+              "reduce": false
+            },
+            {
+              "id": 10,
+              "name": "b",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 11,
+              "name": "c",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 12,
+              "name": "y3",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 13,
+              "name": "d",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 14,
+              "name": "y0",
+              "raw_load": 5,
+              "post_load": 5,
+              "reduce": false
+            },
+            {
+              "id": 15,
+              "name": "out0",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 16,
+              "name": "out1",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 17,
+              "name": "out2",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 18,
+              "name": "out3",
+              "raw_load": 1,
+              "post_load": 1,
+              "reduce": false
+            }
+          ],
+          "selected": [
+            12
+          ],
+          "peak_states": 235,
+          "max_frontier": 7,
+          "transitions": 1478
+        }
+      }
+    },
+    {
+      "circuit": "A17_eleven",
+      "matrix": [
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          -1,
+          2,
+          -1,
+          1
+        ],
+        [
+          1,
+          -1,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          -1,
+          2
+        ]
+      ],
+      "operations": 11,
+      "nodes": [
+        {
+          "name": "w",
+          "terms": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "u",
+          "terms": [
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "v",
+          "terms": [
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "a",
+          "terms": [
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "b",
+          "terms": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y1",
+          "terms": [
+            [
+              7,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y2",
+          "terms": [
+            [
+              8,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "t",
+          "terms": [
+            [
+              10,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y0",
+          "terms": [
+            [
+              11,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "d3",
+          "terms": [
+            [
+              3,
+              2
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "y3",
+          "terms": [
+            [
+              13,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "output": false
+        },
+        {
+          "name": "out0",
+          "terms": [
+            [
+              12,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out1",
+          "terms": [
+            [
+              9,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out2",
+          "terms": [
+            [
+              10,
+              1
+            ]
+          ],
+          "output": true
+        },
+        {
+          "name": "out3",
+          "terms": [
+            [
+              14,
+              1
+            ]
+          ],
+          "output": true
+        }
+      ],
+      "outputs": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "schedules": {
+        "3": {
+          "reductions": 6,
+          "loads": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            2,
+            3,
+            1,
+            2,
+            3,
+            2,
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "details": [
+            {
+              "id": 4,
+              "name": "w",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 5,
+              "name": "u",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 6,
+              "name": "v",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 7,
+              "name": "a",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 8,
+              "name": "b",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 9,
+              "name": "y1",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 10,
+              "name": "y2",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 11,
+              "name": "t",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 12,
+              "name": "y0",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 13,
+              "name": "d3",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 14,
+              "name": "y3",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 15,
+              "name": "out0",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 16,
+              "name": "out1",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 17,
+              "name": "out2",
+              "raw_load": 1,
+              "post_load": 1,
+              "reduce": false
+            },
+            {
+              "id": 18,
+              "name": "out3",
+              "raw_load": 3,
+              "post_load": 1,
+              "reduce": true
+            }
+          ],
+          "selected": [
+            5,
+            6,
+            10
+          ],
+          "peak_states": 54,
+          "max_frontier": 6,
+          "transitions": 414
+        },
+        "4": {
+          "reductions": 5,
+          "loads": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            4,
+            1,
+            2,
+            4,
+            2,
+            4,
+            1,
+            1,
+            1,
+            1
+          ],
+          "details": [
+            {
+              "id": 4,
+              "name": "w",
+              "raw_load": 2,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 5,
+              "name": "u",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 6,
+              "name": "v",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 7,
+              "name": "a",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 8,
+              "name": "b",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 9,
+              "name": "y1",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 10,
+              "name": "y2",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 11,
+              "name": "t",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 12,
+              "name": "y0",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 13,
+              "name": "d3",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 14,
+              "name": "y3",
+              "raw_load": 4,
+              "post_load": 4,
+              "reduce": false
+            },
+            {
+              "id": 15,
+              "name": "out0",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 16,
+              "name": "out1",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 17,
+              "name": "out2",
+              "raw_load": 1,
+              "post_load": 1,
+              "reduce": false
+            },
+            {
+              "id": 18,
+              "name": "out3",
+              "raw_load": 4,
+              "post_load": 1,
+              "reduce": true
+            }
+          ],
+          "selected": [
+            4,
+            10
+          ],
+          "peak_states": 150,
+          "max_frontier": 6,
+          "transitions": 936
+        },
+        "5": {
+          "reductions": 4,
+          "loads": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            2,
+            2,
+            5,
+            1,
+            2,
+            5,
+            2,
+            5,
+            1,
+            1,
+            1,
+            1
+          ],
+          "details": [
+            {
+              "id": 4,
+              "name": "w",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 5,
+              "name": "u",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 6,
+              "name": "v",
+              "raw_load": 3,
+              "post_load": 3,
+              "reduce": false
+            },
+            {
+              "id": 7,
+              "name": "a",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 8,
+              "name": "b",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 9,
+              "name": "y1",
+              "raw_load": 5,
+              "post_load": 5,
+              "reduce": false
+            },
+            {
+              "id": 10,
+              "name": "y2",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 11,
+              "name": "t",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 12,
+              "name": "y0",
+              "raw_load": 5,
+              "post_load": 5,
+              "reduce": false
+            },
+            {
+              "id": 13,
+              "name": "d3",
+              "raw_load": 2,
+              "post_load": 2,
+              "reduce": false
+            },
+            {
+              "id": 14,
+              "name": "y3",
+              "raw_load": 5,
+              "post_load": 5,
+              "reduce": false
+            },
+            {
+              "id": 15,
+              "name": "out0",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 16,
+              "name": "out1",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            },
+            {
+              "id": 17,
+              "name": "out2",
+              "raw_load": 1,
+              "post_load": 1,
+              "reduce": false
+            },
+            {
+              "id": 18,
+              "name": "out3",
+              "raw_load": 5,
+              "post_load": 1,
+              "reduce": true
+            }
+          ],
+          "selected": [
+            10
+          ],
+          "peak_states": 263,
+          "max_frontier": 6,
+          "transitions": 1458
+        }
+      }
+    }
+  ],
+  "subset_comparisons": 6,
+  "grid": [
+    {
+      "circuit": "A7_eleven",
+      "H": 2,
+      "cost": 11,
+      "selected": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 3,
+      "cost": 7,
+      "selected": [
+        6,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 4,
+      "cost": 5,
+      "selected": [
+        4,
+        12
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 5,
+      "cost": 4,
+      "selected": [
+        12
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 6,
+      "cost": 4,
+      "selected": [
+        12
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 7,
+      "cost": 4,
+      "selected": [
+        12
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 8,
+      "cost": 4,
+      "selected": [
+        12
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 9,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 10,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 11,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 12,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 13,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 14,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 15,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 16,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 2,
+      "cost": 11,
+      "selected": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 3,
+      "cost": 6,
+      "selected": [
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 4,
+      "cost": 5,
+      "selected": [
+        4,
+        10
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 5,
+      "cost": 4,
+      "selected": [
+        10
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 6,
+      "cost": 4,
+      "selected": [
+        10
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 7,
+      "cost": 4,
+      "selected": [
+        10
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 8,
+      "cost": 4,
+      "selected": [
+        10
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 9,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 10,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 11,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 12,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 13,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 14,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 15,
+      "cost": 4,
+      "selected": []
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 16,
+      "cost": 4,
+      "selected": []
+    }
+  ]
+}

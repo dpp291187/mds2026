@@ -1,0 +1,350 @@
+{
+  "reachability": {
+    "49": {
+      "independent_sumsets": 444,
+      "first_forms": 156,
+      "histogram": {
+        "1": 48,
+        "0": 32,
+        "2": 72,
+        "4": 4
+      }
+    },
+    "7": {
+      "independent_sumsets": 549,
+      "first_forms": 156,
+      "histogram": {
+        "1": 48,
+        "0": 44,
+        "4": 28,
+        "2": 21,
+        "3": 15
+      }
+    },
+    "17": {
+      "independent_sumsets": 572,
+      "first_forms": 156,
+      "histogram": {
+        "1": 44,
+        "0": 48,
+        "3": 20,
+        "2": 20,
+        "4": 24
+      }
+    }
+  },
+  "subset_comparisons": 6,
+  "range_cases": 16,
+  "range_inputs": 456976,
+  "fields": [
+    {
+      "name": "BabyBear",
+      "p": 2013265921,
+      "residue_mod24": 1,
+      "minus_six_character": 1,
+      "square_root": 409315689,
+      "eigenvalues": [
+        {
+          "value": 818631383,
+          "eigenspace_dimension": 2
+        },
+        {
+          "value": 1194634548,
+          "eigenspace_dimension": 2
+        }
+      ],
+      "primality_certificate": {
+        "factorization": {
+          "2": 27,
+          "3": 1,
+          "5": 1
+        },
+        "primitive_root": 31
+      }
+    },
+    {
+      "name": "Mersenne31",
+      "p": 2147483647,
+      "residue_mod24": 7,
+      "minus_six_character": 1,
+      "square_root": 1395627816,
+      "eigenvalues": [
+        {
+          "value": 643771990,
+          "eigenspace_dimension": 2
+        },
+        {
+          "value": 1503711667,
+          "eigenspace_dimension": 2
+        }
+      ],
+      "primality_certificate": {
+        "factorization": {
+          "2": 1,
+          "3": 2,
+          "7": 1,
+          "11": 1,
+          "31": 1,
+          "151": 1,
+          "331": 1
+        },
+        "primitive_root": 7
+      }
+    },
+    {
+      "name": "Goldilocks",
+      "p": 18446744069414584321,
+      "residue_mod24": 1,
+      "minus_six_character": 1,
+      "square_root": 144116287570706688,
+      "eigenvalues": [
+        {
+          "value": 288232575141413381,
+          "eigenspace_dimension": 2
+        },
+        {
+          "value": 18158511494273170950,
+          "eigenspace_dimension": 2
+        }
+      ],
+      "primality_certificate": {
+        "factorization": {
+          "2": 32,
+          "3": 1,
+          "5": 1,
+          "17": 1,
+          "257": 1,
+          "65537": 1
+        },
+        "primitive_root": 7
+      }
+    },
+    {
+      "name": "KoalaBear",
+      "p": 2130706433,
+      "residue_mod24": 17,
+      "minus_six_character": -1,
+      "square_root": null,
+      "eigenvalues": [],
+      "primality_certificate": {
+        "factorization": {
+          "2": 24,
+          "127": 1
+        },
+        "primitive_root": 3
+      }
+    }
+  ],
+  "block_compositions": [
+    {
+      "blocks": 2,
+      "dimension": 8,
+      "signed_norm": 15,
+      "positive_norm": 21,
+      "widths": [
+        {
+          "field": "BabyBear",
+          "p": 2013265921,
+          "signed_block_width": 35,
+          "positive_block_width": 36,
+          "saving": 1
+        },
+        {
+          "field": "Mersenne31",
+          "p": 2147483647,
+          "signed_block_width": 35,
+          "positive_block_width": 36,
+          "saving": 1
+        },
+        {
+          "field": "Goldilocks",
+          "p": 18446744069414584321,
+          "signed_block_width": 68,
+          "positive_block_width": 69,
+          "saving": 1
+        },
+        {
+          "field": "KoalaBear",
+          "p": 2130706433,
+          "signed_block_width": 35,
+          "positive_block_width": 36,
+          "saving": 1
+        }
+      ]
+    },
+    {
+      "blocks": 3,
+      "dimension": 12,
+      "signed_norm": 20,
+      "positive_norm": 28,
+      "widths": [
+        {
+          "field": "BabyBear",
+          "p": 2013265921,
+          "signed_block_width": 36,
+          "positive_block_width": 36,
+          "saving": 0
+        },
+        {
+          "field": "Mersenne31",
+          "p": 2147483647,
+          "signed_block_width": 36,
+          "positive_block_width": 36,
+          "saving": 0
+        },
+        {
+          "field": "Goldilocks",
+          "p": 18446744069414584321,
+          "signed_block_width": 69,
+          "positive_block_width": 69,
+          "saving": 0
+        },
+        {
+          "field": "KoalaBear",
+          "p": 2130706433,
+          "signed_block_width": 36,
+          "positive_block_width": 36,
+          "saving": 0
+        }
+      ]
+    },
+    {
+      "blocks": 4,
+      "dimension": 16,
+      "signed_norm": 25,
+      "positive_norm": 35,
+      "widths": [
+        {
+          "field": "BabyBear",
+          "p": 2013265921,
+          "signed_block_width": 36,
+          "positive_block_width": 37,
+          "saving": 1
+        },
+        {
+          "field": "Mersenne31",
+          "p": 2147483647,
+          "signed_block_width": 36,
+          "positive_block_width": 37,
+          "saving": 1
+        },
+        {
+          "field": "Goldilocks",
+          "p": 18446744069414584321,
+          "signed_block_width": 69,
+          "positive_block_width": 70,
+          "saving": 1
+        },
+        {
+          "field": "KoalaBear",
+          "p": 2130706433,
+          "signed_block_width": 36,
+          "positive_block_width": 37,
+          "saving": 1
+        }
+      ]
+    },
+    {
+      "blocks": 5,
+      "dimension": 20,
+      "signed_norm": 30,
+      "positive_norm": 42,
+      "widths": [
+        {
+          "field": "BabyBear",
+          "p": 2013265921,
+          "signed_block_width": 36,
+          "positive_block_width": 37,
+          "saving": 1
+        },
+        {
+          "field": "Mersenne31",
+          "p": 2147483647,
+          "signed_block_width": 36,
+          "positive_block_width": 37,
+          "saving": 1
+        },
+        {
+          "field": "Goldilocks",
+          "p": 18446744069414584321,
+          "signed_block_width": 69,
+          "positive_block_width": 70,
+          "saving": 1
+        },
+        {
+          "field": "KoalaBear",
+          "p": 2130706433,
+          "signed_block_width": 36,
+          "positive_block_width": 37,
+          "saving": 1
+        }
+      ]
+    },
+    {
+      "blocks": 6,
+      "dimension": 24,
+      "signed_norm": 35,
+      "positive_norm": 49,
+      "widths": [
+        {
+          "field": "BabyBear",
+          "p": 2013265921,
+          "signed_block_width": 37,
+          "positive_block_width": 37,
+          "saving": 0
+        },
+        {
+          "field": "Mersenne31",
+          "p": 2147483647,
+          "signed_block_width": 37,
+          "positive_block_width": 37,
+          "saving": 0
+        },
+        {
+          "field": "Goldilocks",
+          "p": 18446744069414584321,
+          "signed_block_width": 70,
+          "positive_block_width": 70,
+          "saving": 0
+        },
+        {
+          "field": "KoalaBear",
+          "p": 2130706433,
+          "signed_block_width": 37,
+          "positive_block_width": 37,
+          "saving": 0
+        }
+      ]
+    }
+  ],
+  "general_bounds": [
+    {
+      "n": 2,
+      "lower_bound": 2
+    },
+    {
+      "n": 3,
+      "lower_bound": 4
+    },
+    {
+      "n": 4,
+      "lower_bound": 5
+    },
+    {
+      "n": 5,
+      "lower_bound": 7
+    },
+    {
+      "n": 6,
+      "lower_bound": 9
+    },
+    {
+      "n": 7,
+      "lower_bound": 10
+    },
+    {
+      "n": 8,
+      "lower_bound": 12
+    }
+  ]
+}

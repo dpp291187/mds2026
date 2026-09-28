@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/HorizenLabs/poseidon2",
+  "commit": "055bde3f4782731ba5f5ce5888a440a94327eaf3",
+  "url": "https://github.com/HorizenLabs/poseidon2/blob/055bde3f4782731ba5f5ce5888a440a94327eaf3/poseidon2_rust_params.sage",
+  "sha256": "c301c6d074b58cc27f117f59971f405a16c57d10e6140f1025643fa25ba75223",
+  "inspected_function": "generate_matrix_full",
+  "t4_convention": "M4",
+  "t4k_convention": "(I_k+J_k) tensor M4 for k>=2",
+  "pinned_plonky3_v0_4_0_t4_convention": "2*M4 in mds_light_permutation; isolated MDSMat4 kernels are the baseline circuits."
+}

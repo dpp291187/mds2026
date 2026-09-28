@@ -1,0 +1,5424 @@
+{
+  "semantics": "centered F13 inputs, selected certificate-optimal schedules, per-node absolute maxima",
+  "total_inputs": 456976,
+  "cases": [
+    {
+      "circuit": "HorizenLabs_M4",
+      "H": 3,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 14,
+      "normalizations": 10,
+      "selected": [
+        4,
+        5,
+        7,
+        9,
+        10,
+        12,
+        13,
+        15
+      ],
+      "arithmetic_raw_tight": 14,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 18,
+      "maximum_exact_raw_peak": 18,
+      "nodes": [
+        {
+          "node": "s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "d1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t2",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "d_s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "q_s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "t4",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d_s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "q_s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t5",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t6",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            3
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -1,
+            3
+          ]
+        },
+        {
+          "node": "t7",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            2,
+            4
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            2,
+            4
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            3
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            2,
+            4
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "HorizenLabs_M4",
+      "H": 4,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 14,
+      "normalizations": 8,
+      "selected": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "arithmetic_raw_tight": 14,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "d_s1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "q_s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "t4",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "d_s0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "q_s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t5",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t6",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            6,
+            -5
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -4,
+            6,
+            -5
+          ]
+        },
+        {
+          "node": "t7",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -5,
+            1,
+            2
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -5,
+            1,
+            2
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            6,
+            -5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -4,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -5,
+            1,
+            2
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "HorizenLabs_M4",
+      "H": 5,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 14,
+      "normalizations": 7,
+      "selected": [
+        4,
+        7,
+        10,
+        12,
+        15
+      ],
+      "arithmetic_raw_tight": 14,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 30,
+      "maximum_exact_raw_peak": 30,
+      "nodes": [
+        {
+          "node": "s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "d_s1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "q_s1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -4
+          ]
+        },
+        {
+          "node": "t4",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -3,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d_s0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "q_s0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t5",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t6",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            4,
+            6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -1,
+            4,
+            6
+          ]
+        },
+        {
+          "node": "t7",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            2,
+            4
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            2,
+            4
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            4,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            2,
+            4
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "Plonky3_M4",
+      "H": 3,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 8,
+      "selected": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 18,
+      "maximum_exact_raw_peak": 18,
+      "nodes": [
+        {
+          "node": "s01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "s",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -1
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            0,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            0,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "d0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d2",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -3
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "Plonky3_M4",
+      "H": 4,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 5,
+      "selected": [
+        6
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "s01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ]
+        },
+        {
+          "node": "d0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d2",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -3
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "Plonky3_M4",
+      "H": 5,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 5,
+      "selected": [
+        6
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "s01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -2
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ]
+        },
+        {
+          "node": "d0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d2",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            3
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -3
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -1,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "Signed_A49",
+      "H": 3,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 12,
+      "normalizations": 8,
+      "selected": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "arithmetic_raw_tight": 12,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 18,
+      "maximum_exact_raw_peak": 18,
+      "nodes": [
+        {
+          "node": "s01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "d23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            0,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            0,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "c",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "d",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            0
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            0,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            0,
+            -6,
+            -6,
+            1
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            0,
+            -6,
+            -6,
+            1
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            0,
+            6,
+            0
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            0,
+            6,
+            0
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            0,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -1,
+            0,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            0,
+            -6,
+            -6,
+            1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            0,
+            6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            0,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "Signed_A49",
+      "H": 4,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 12,
+      "normalizations": 6,
+      "selected": [
+        4,
+        5
+      ],
+      "arithmetic_raw_tight": 12,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "s01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            0,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            0,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "c",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "d",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            0,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            0,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            0,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            0,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -1,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "Signed_A49",
+      "H": 5,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 12,
+      "normalizations": 4,
+      "selected": [],
+      "arithmetic_raw_tight": 12,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 30,
+      "maximum_exact_raw_peak": 30,
+      "nodes": [
+        {
+          "node": "s01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d01",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "d23",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "c",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "d",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            -6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 3,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 7,
+      "selected": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 18,
+      "maximum_exact_raw_peak": 18,
+      "nodes": [
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "t",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "q",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -5
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -5
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "c",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "d",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -2,
+            2
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -2,
+            2
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -2,
+            2
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 4,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 5,
+      "selected": [
+        4,
+        12
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "t",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            0
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "q",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            0
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            6,
+            6,
+            0
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "c",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "d",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A7_eleven",
+      "H": 5,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 4,
+      "selected": [
+        12
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 30,
+      "maximum_exact_raw_peak": 30,
+      "nodes": [
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "t",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "q",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            -6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "c",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "d",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -5,
+            -6,
+            6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            -5,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -5,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 3,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 6,
+      "selected": [
+        5,
+        6,
+        10
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 18,
+      "maximum_exact_raw_peak": 18,
+      "nodes": [
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "u",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "v",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "t",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 4,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 5,
+      "selected": [
+        4,
+        10
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ]
+        },
+        {
+          "node": "u",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            1,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            1,
+            -6
+          ]
+        },
+        {
+          "node": "v",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            0,
+            6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            6,
+            0,
+            6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "t",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            0,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A17_eleven",
+      "H": 5,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 11,
+      "normalizations": 4,
+      "selected": [
+        10
+      ],
+      "arithmetic_raw_tight": 11,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 30,
+      "maximum_exact_raw_peak": 30,
+      "nodes": [
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "u",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "v",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "a",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "b",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "t",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -5
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -5
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 30,
+          "exact_post_peak": 30,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            6,
+            -6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 6,
+          "exact_raw_peak": 6,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            5
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 30,
+          "exact_raw_peak": 30,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "circuit": "A49_canceling_15",
+      "H": 4,
+      "p": 13,
+      "inputs": 28561,
+      "operations": 15,
+      "normalizations": 5,
+      "selected": [
+        6
+      ],
+      "arithmetic_raw_tight": 15,
+      "minimum_raw_utilization": "1",
+      "maximum_raw_certificate": 24,
+      "maximum_exact_raw_peak": 24,
+      "nodes": [
+        {
+          "node": "s12",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "s123",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "w",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            6,
+            6,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -1
+          ]
+        },
+        {
+          "node": "d0",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t0",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "y0",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ]
+        },
+        {
+          "node": "d2",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t1",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "y1",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            1
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            6,
+            1
+          ]
+        },
+        {
+          "node": "d3",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t2",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y2",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            6,
+            -6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            0,
+            6,
+            -6
+          ]
+        },
+        {
+          "node": "d1",
+          "output_sink": false,
+          "raw_certificate": 12,
+          "exact_raw_peak": 12,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ],
+          "post_certificate": 12,
+          "exact_post_peak": 12,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "t3",
+          "output_sink": false,
+          "raw_certificate": 18,
+          "exact_raw_peak": 18,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ],
+          "post_certificate": 18,
+          "exact_post_peak": 18,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            6
+          ]
+        },
+        {
+          "node": "y3",
+          "output_sink": false,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            6
+          ],
+          "post_certificate": 24,
+          "exact_post_peak": 24,
+          "post_attaining_input": [
+            -6,
+            -6,
+            0,
+            6
+          ]
+        },
+        {
+          "node": "out0",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            -6,
+            0
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            4
+          ]
+        },
+        {
+          "node": "out1",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            6,
+            1
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out2",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            0,
+            6,
+            -6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        },
+        {
+          "node": "out3",
+          "output_sink": true,
+          "raw_certificate": 24,
+          "exact_raw_peak": 24,
+          "raw_attaining_input": [
+            -6,
+            -6,
+            0,
+            6
+          ],
+          "post_certificate": 6,
+          "exact_post_peak": 6,
+          "post_attaining_input": [
+            -6,
+            -6,
+            -6,
+            -6
+          ]
+        }
+      ]
+    }
+  ]
+}

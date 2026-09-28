@@ -1,0 +1,44 @@
+{
+  "HorizenLabs_M4": {
+    "L": 16,
+    "det": -64,
+    "bad_primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      19,
+      23
+    ],
+    "depth": 5,
+    "operations": 14
+  },
+  "Plonky3_M4": {
+    "L": 7,
+    "det": -35,
+    "bad_primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      17
+    ],
+    "depth": 4,
+    "operations": 11
+  },
+  "Signed_A49": {
+    "L": 5,
+    "det": 49,
+    "bad_primes": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "depth": 3,
+    "operations": 12
+  }
+}
